@@ -5,7 +5,6 @@
 #navbar{
     height : 60px;
     background-color: #0f1111;
-    position : relative;
 }
 #logo{
     color : #f08804;
@@ -21,13 +20,16 @@ a{
     margin-right : 200px;
 }
 .container{
-    height: 100px;
-    width : 100px;
+    height: 200px;
+    width : 200px;
     border : 1px solid black;
     display : inline-block;
 }
 #content{
     height : 750px;
+    position : relative;
+    top : 20px;
+    left :10px;
 }
 #item1{
     background-color: rgb(209, 28, 28, 0.5);
